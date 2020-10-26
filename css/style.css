@@ -51,6 +51,7 @@ nav ul {
   text-align: center;
   background-image: url(../img/heroimage.jpg);
   background-size: cover;
+  background-position: bottom;
   color: white;
   position: relative;
   margin-bottom: 60px;
@@ -122,4 +123,45 @@ nav ul {
 .go, .bike {
   background-color: #fafafa;
   padding: 96px 48px 32px;
+}
+
+.how {
+  height: 846.66px;
+  margin-top: 60px;
+  position: relative;
+}
+
+.how h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 360px;
+  margin-right: 50px;
+}
+
+.how h3 {
+  font-size: 20px;
+  margin-top: 360px;
+}
+
+.how p {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.banner {
+  height: 500px;
+  background-image: url(../img/index-banner.jpg);
+  background-position: center;
+
+}
+
+.phone {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.phone img {
+  height: 510.66px;
 }
