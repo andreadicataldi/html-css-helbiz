@@ -1,0 +1,47 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  height: 4rem;
+  line-height: 4rem;
+}
+
+nav img {
+  height: 0.8rem;
+  padding-left: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  color: black;
+  font-size: 10px;
+}
+
+nav ul {
+  text-align: right;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.links li {
+  padding-left: 20px;
+}
+
+.links li:last-child a {
+  padding-right: 10px;
+}
+
+.lang li a {
+  padding-left: 5px;
+}
+
+.lang li:not(:last-child) a {
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
