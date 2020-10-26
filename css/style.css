@@ -157,6 +157,8 @@ nav ul {
 .banner {
   height: 500px;
   background-image: url(../img/index-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
