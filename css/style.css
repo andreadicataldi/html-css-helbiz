@@ -104,6 +104,12 @@ nav ul {
   color: #4696d5;
 }
 
+.learn-more-white a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
 .helbizgo-logo, .helbizbike-logo {
   height: 22.42px;
 }
@@ -152,7 +158,6 @@ nav ul {
   height: 500px;
   background-image: url(../img/index-banner.jpg);
   background-position: center;
-
 }
 
 .phone {
@@ -164,4 +169,31 @@ nav ul {
 
 .phone img {
   height: 510.66px;
+}
+
+.smart {
+  height: 500px;
+  background-image: url(../img/scooter.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.smart-text {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+}
+
+.smart-text h2 {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.smart-text p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
