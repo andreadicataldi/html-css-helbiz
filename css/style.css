@@ -53,6 +53,7 @@ nav ul {
   background-size: cover;
   color: white;
   position: relative;
+  margin-bottom: 60px;
 }
 
 .overlay {
@@ -84,4 +85,41 @@ nav ul {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.offer {
+  text-align: center;
+}
+
+.offer h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 32px 0;
+}
+
+.learn-more a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #4696d5;
+}
+
+.helbizgo-logo, .helbizbike-logo {
+  height: 22.42px;
+}
+
+.helbizgo-photo, .helbizbike-photo {
+  height: 340px;
+}
+
+.go {
+  margin-right: 20px;
+}
+
+.bike {
+  margin-left: 20px;
+}
+
+.go, .bike {
+  background-color: #fafafa;
+  padding: 96px 48px 32px;
 }
